@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.Solution.API", "TestProject.Solution.API\TestProject.Solution.API.csproj", "{EE2C110F-8DF2-4BCB-8C79-7792E948AE29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.Solution.Data", "TestProject.Solution.Data\TestProject.Solution.Data.csproj", "{5B74A6D0-444B-4057-BC54-8E116C125075}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.Solution.DTO", "TestProject.Solution.DTO\TestProject.Solution.DTO.csproj", "{B1D6CDDC-874D-435F-8D7B-8CF3F5CC63C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.Solution.Services", "TestProject.Solution.Services\TestProject.Solution.Services.csproj", "{1E80E336-EEBD-48CE-A7CA-96613BBE1C0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GMCore", "GMCore", "{5DBB1CC6-7ACF-45CB-9F3A-5174C54E08E4}"
+	ProjectSection(SolutionItems) = preProject
+		CustomControls.dll = CustomControls.dll
+		CustomControls.Views.dll = CustomControls.Views.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject.Solution.MVC", "TestProject.Solution.MVC\TestProject.Solution.MVC.csproj", "{8E199394-E341-467A-8529-D5281A3EF882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2C110F-8DF2-4BCB-8C79-7792E948AE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2C110F-8DF2-4BCB-8C79-7792E948AE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2C110F-8DF2-4BCB-8C79-7792E948AE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2C110F-8DF2-4BCB-8C79-7792E948AE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B74A6D0-444B-4057-BC54-8E116C125075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B74A6D0-444B-4057-BC54-8E116C125075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B74A6D0-444B-4057-BC54-8E116C125075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B74A6D0-444B-4057-BC54-8E116C125075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D6CDDC-874D-435F-8D7B-8CF3F5CC63C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D6CDDC-874D-435F-8D7B-8CF3F5CC63C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D6CDDC-874D-435F-8D7B-8CF3F5CC63C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D6CDDC-874D-435F-8D7B-8CF3F5CC63C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E80E336-EEBD-48CE-A7CA-96613BBE1C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E80E336-EEBD-48CE-A7CA-96613BBE1C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E80E336-EEBD-48CE-A7CA-96613BBE1C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E80E336-EEBD-48CE-A7CA-96613BBE1C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E199394-E341-467A-8529-D5281A3EF882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E199394-E341-467A-8529-D5281A3EF882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E199394-E341-467A-8529-D5281A3EF882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E199394-E341-467A-8529-D5281A3EF882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {097586E5-F541-4BE9-819D-38D2146FE4E8}
+	EndGlobalSection
+EndGlobal
